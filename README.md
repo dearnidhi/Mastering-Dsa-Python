@@ -24,7 +24,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 ---
 
-## Total Questions: ~170 Questions
+## Total Questions: ~185 Unique Questions
 
 ### Phase 1 — Foundations
 
@@ -33,7 +33,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 - Best / Average / Worst case
 - Amortized analysis
 
-#### 2-Array (16 Qs)
+#### 2-Array (15 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 268 | Missing Number | Easy |
@@ -47,11 +47,10 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 9 | 26 | Remove Duplicates from Sorted Array | Easy |
 | 10 | Var | Pair Sum (Two Sum variation) | Easy |
 | 11 | 217 | Contains Duplicate | Easy |
-| 12 | 567 | Permutation in String | Medium |
-| 13 | 48 | Rotate Image (Matrix) | Medium |
-| 14 | 1929 | Concatenation of Array | Easy |
-| 15 | 1512 | Number of Good Pairs | Easy |
-| 16 | 2011 | Final Value of Variable After Operations | Easy |
+| 12 | 48 | Rotate Image (Matrix) | Medium |
+| 13 | 1929 | Concatenation of Array | Easy |
+| 14 | 1512 | Number of Good Pairs | Easy |
+| 15 | 2011 | Final Value of Variable After Operations | Easy |
 
 #### 3-List (10 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -67,7 +66,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 9 | 118 | Pascal's Triangle | Easy |
 | 10 | 485 | Max Consecutive Ones | Easy |
 
-#### 4-Dict (15 Qs)
+#### 4-Dict (10 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 260 | Single Number III | Medium |
@@ -81,26 +80,46 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 9 | 49 | Group Anagrams | Medium |
 | 10 | 1160 | Find Words Formed by Characters | Easy |
 
-#### 5-Tuple
-- Immutability, Named tuples, use as hashmap keys
-
-#### 6-String (5 Qs)
+#### 5-Tuple (5 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
-| 1 | Custom | Count Vowels and Consonants | Easy |
-| 2 | 5 | Longest Palindromic Substring | Medium |
-| 3 | 6 | Zigzag Conversion | Medium |
-| 4 | 14 | Longest Common Prefix | Easy |
-| 5 | 125 | Valid Palindrome | Easy |
+| 1 | 1726 | Tuple with Same Product | Medium |
+| 2 | 454 | 4Sum II | Medium |
+| 3 | 447 | Number of Boomerangs | Medium |
+| 4 | 1577 | Number of Ways Square Equals Product of Two Numbers | Medium |
+| 5 | 1182 | Shortest Distance to Target Color | Medium |
 
-#### 7-Math
-- Prime numbers, GCD, LCM, Modular arithmetic
+#### 6-String (8 Qs)
+| # | LeetCode | Problem | Difficulty | Optimization |
+|---|----------|---------|-----------|--------------|
+| 1 | Custom | Count Vowels and Consonants | Easy | — |
+| 2 | 5 | Longest Palindromic Substring | Medium | Expand Around Center O(n²) |
+| 3 | 6 | Zigzag Conversion | Medium | — |
+| 4 | 14 | Longest Common Prefix | Easy | — |
+| 5 | 125 | Valid Palindrome | Easy | — |
+| 6 | 28 | Implement strStr() / Find Substring | Easy | — |
+| 7 | 58 | Length of Last Word | Easy | — |
+| 8 | 151 | Reverse Words in a String | Medium | — |
+
+#### 7-Math (10 Qs)
+| # | LeetCode | Problem | Difficulty |
+|---|----------|---------|-----------|
+| 1 | 7 | Reverse Integer | Medium |
+| 2 | 9 | Palindrome Number | Easy |
+| 3 | 50 | Pow(x, n) | Medium |
+| 4 | 13 | Roman to Integer | Easy |
+| 5 | 12 | Integer to Roman | Medium |
+| 6 | 172 | Factorial Trailing Zeroes | Medium |
+| 7 | 343 | Integer Break | Medium |
+| 8 | 263 | Ugly Number | Easy |
+| 9 | 264 | Ugly Number II | Medium |
+| 10 | 326 | Power of Three | Easy |
 
 ---
 
 ### Phase 2 — Core Data Structures
 
-#### 8-Recursion (5 Qs)
+#### 8-Recursion (8 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | Custom | Factorial | Easy |
@@ -108,22 +127,24 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 3 | Custom | Sum of First N Numbers | Easy |
 | 4 | 344 | Reverse String | Easy |
 | 5 | 24 | Swap Nodes in Pairs | Medium |
+| 6 | 22 | Generate Parentheses | Medium |
+| 7 | 258 | Add Digits | Easy |
+| 8 | Custom | Tower of Hanoi | Medium |
 
-#### 9-LinkedList (10 Qs)
+#### 9-LinkedList (9 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 206 | Reverse Linked List | Easy |
 | 2 | 21 | Merge Two Sorted Lists | Easy |
 | 3 | 141 | Linked List Cycle | Easy |
-| 4 | 876 | Middle of Linked List | Easy |
-| 5 | 203 | Remove Linked List Elements | Easy |
+| 4 | 203 | Remove Linked List Elements | Easy |
+| 5 | 19 | Remove Nth Node From End of List | Medium |
 | 6 | 708 | Insert into Sorted Circular Linked List | Medium |
-| 7 | Custom | Josephus Circle | Medium |
-| 8 | 707 | Design Linked List | Medium |
-| 9 | 430 | Flatten Multilevel Doubly Linked List | Medium |
-| 10 | 146 | LRU Cache | Hard |
+| 7 | 707 | Design Linked List | Medium |
+| 8 | 430 | Flatten Multilevel Doubly Linked List | Medium |
+| 9 | 146 | LRU Cache | Hard |
 
-#### 10-Stack (9 Qs)
+#### 10-Stack (7 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 155 | Min Stack | Medium |
@@ -134,7 +155,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 6 | 84 | Largest Rectangle in Histogram | Hard |
 | 7 | 394 | Decode String | Medium |
 
-#### 11-Queue (6 Qs)
+#### 11-Queue (5 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 622 | Design Circular Queue | Medium |
@@ -143,7 +164,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 4 | 346 | Moving Average from Data Stream | Easy |
 | 5 | 239 | Sliding Window Maximum | Hard |
 
-#### 12-Hash (15 Qs)
+#### 12-Hash (10 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 383 | Ransom Note | Easy |
@@ -154,23 +175,35 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 | 6 | 242 | Valid Anagram | Easy |
 | 7 | 525 | Contiguous Array | Medium |
 | 8 | 560 | Subarray Sum Equals K | Medium |
-| 9 | 347 | Top K Frequent Elements | Medium |
-| 10 | 290 | Word Pattern | Easy |
-| 11 | 205 | Isomorphic Strings | Easy |
+| 9 | 290 | Word Pattern | Easy |
+| 10 | 205 | Isomorphic Strings | Easy |
 
 ---
 
 ### Phase 3 — Algorithms
 
-#### 13-Searching (3 Qs)
+#### 13-Searching (7 Qs)
 | # | LeetCode | Problem | Difficulty |
 |---|----------|---------|-----------|
 | 1 | 35 | Search Insert Position | Easy |
-| 2 | 704 | Binary Search | Easy |
-| 3 | 74 | Search a 2D Matrix | Medium |
+| 2 | 33 | Search in Rotated Sorted Array | Medium |
+| 3 | 34 | Find First and Last Position in Sorted Array | Medium |
+| 4 | 153 | Find Minimum in Rotated Sorted Array | Medium |
+| 5 | 278 | First Bad Version | Easy |
+| 6 | 162 | Find Peak Element | Medium |
+| 7 | 540 | Single Element in a Sorted Array | Medium |
 
-#### 14-Sorting
-- Bubble, Selection, Insertion, Bucket, Merge, Quick, Heap Sort
+#### 14-Sorting (8 Qs — unique, algorithm-applied LeetCode problems)
+| # | LeetCode | Problem | Algorithm Used | Difficulty |
+|---|----------|---------|---------------|-----------|
+| 1 | 147 | Insertion Sort List | Insertion Sort | Medium |
+| 2 | 912 | Sort an Array | Merge Sort | Medium |
+| 3 | 2161 | Partition Array According to Given Pivot | Pivot Sort | Medium |
+| 4 | 179 | Largest Number | Custom Comparator Sort | Medium |
+| 5 | 274 | H-Index | Sort + Count | Medium |
+| 6 | 148 | Sort List | Merge Sort on LinkedList | Medium |
+| 7 | 969 | Pancake Sorting | Selection-style Flip | Medium |
+| 8 | 253 | Meeting Rooms II | Sort + Min Heap | Medium |
 
 #### 15-Sliding Window (10 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -188,7 +221,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 ---
 
-### Phase 4 — Two Pointers (NEW)
+### Phase 4 — Two Pointers
 
 #### 16-TwoPointers (8 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -204,27 +237,27 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 ---
 
-### Phase 5 — Trees (NEW)
+### Phase 5 — Trees
 
 #### 17-Trees (12 Qs)
-| # | LeetCode | Problem | Difficulty |
-|---|----------|---------|-----------|
-| 1 | 104 | Maximum Depth of Binary Tree | Easy |
-| 2 | 226 | Invert Binary Tree | Easy |
-| 3 | 100 | Same Tree | Easy |
-| 4 | 102 | Binary Tree Level Order Traversal | Medium |
-| 5 | 543 | Diameter of Binary Tree | Easy |
-| 6 | 110 | Balanced Binary Tree | Easy |
-| 7 | 112 | Path Sum | Easy |
-| 8 | 199 | Binary Tree Right Side View | Medium |
-| 9 | 98 | Validate Binary Search Tree | Medium |
-| 10 | 235 | Lowest Common Ancestor of BST | Medium |
-| 11 | 230 | Kth Smallest Element in BST | Medium |
-| 12 | 105 | Construct BT from Preorder and Inorder | Medium |
+| # | LeetCode | Problem | Difficulty | Optimization |
+|---|----------|---------|-----------|--------------|
+| 1 | 104 | Maximum Depth of Binary Tree | Easy | — |
+| 2 | 226 | Invert Binary Tree | Easy | — |
+| 3 | 100 | Same Tree | Easy | — |
+| 4 | 102 | Binary Tree Level Order Traversal | Medium | — |
+| 5 | 543 | Diameter of Binary Tree | Easy | — |
+| 6 | 110 | Balanced Binary Tree | Easy | — |
+| 7 | 112 | Path Sum | Easy | — |
+| 8 | 199 | Binary Tree Right Side View | Medium | — |
+| 9 | 98 | Validate Binary Search Tree | Medium | — |
+| 10 | 235 | Lowest Common Ancestor of BST | Medium | — |
+| 11 | 230 | Kth Smallest Element in BST | Medium | — |
+| 12 | 105 | Construct BT from Preorder and Inorder | Medium | Hashmap O(n) |
 
 ---
 
-### Phase 6 — Heaps / Priority Queue (NEW)
+### Phase 6 — Heaps / Priority Queue
 
 #### 18-Heaps (8 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -240,7 +273,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 ---
 
-### Phase 7 — Graphs (NEW)
+### Phase 7 — Graphs
 
 #### 19-Graphs (10 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -258,27 +291,27 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 ---
 
-### Phase 8 — Dynamic Programming (NEW)
+### Phase 8 — Dynamic Programming
 
 #### 20-DynamicProgramming (12 Qs)
-| # | LeetCode | Problem | Difficulty |
-|---|----------|---------|-----------|
-| 1 | 70 | Climbing Stairs | Easy |
-| 2 | 53 | Maximum Subarray (Kadane's Algorithm) | Medium |
-| 3 | 198 | House Robber | Medium |
-| 4 | 213 | House Robber II | Medium |
-| 5 | 322 | Coin Change | Medium |
-| 6 | 518 | Coin Change II | Medium |
-| 7 | 300 | Longest Increasing Subsequence | Medium |
-| 8 | 1143 | Longest Common Subsequence | Medium |
-| 9 | 416 | Partition Equal Subset Sum | Medium |
-| 10 | 152 | Maximum Product Subarray | Medium |
-| 11 | 62 | Unique Paths | Medium |
-| 12 | 72 | Edit Distance | Hard |
+| # | LeetCode | Problem | Difficulty | Optimization |
+|---|----------|---------|-----------|--------------|
+| 1 | 70 | Climbing Stairs | Easy | — |
+| 2 | 53 | Maximum Subarray (Kadane's) | Medium | — |
+| 3 | 198 | House Robber | Medium | — |
+| 4 | 213 | House Robber II | Medium | — |
+| 5 | 322 | Coin Change | Medium | — |
+| 6 | 518 | Coin Change II | Medium | — |
+| 7 | 300 | Longest Increasing Subsequence | Medium | Patience Sort O(n log n) |
+| 8 | 1143 | Longest Common Subsequence | Medium | — |
+| 9 | 416 | Partition Equal Subset Sum | Medium | — |
+| 10 | 152 | Maximum Product Subarray | Medium | — |
+| 11 | 62 | Unique Paths | Medium | — |
+| 12 | 72 | Edit Distance | Hard | — |
 
 ---
 
-### Phase 9 — Backtracking (NEW)
+### Phase 9 — Backtracking
 
 #### 21-Backtracking (8 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -294,7 +327,7 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 ---
 
-### Phase 10 — Greedy (NEW)
+### Phase 10 — Greedy
 
 #### 22-Greedy (8 Qs)
 | # | LeetCode | Problem | Difficulty |
@@ -314,12 +347,15 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 
 | Brute Force | Optimal | Technique |
 |-------------|---------|-----------|
-| O(n^2) nested loops | O(n) two pointers | Two Pointers |
-| O(n^2) nested loops | O(n) hashmap | Hashing |
-| O(2^n) recursive | O(n) or O(n^2) DP | Dynamic Programming |
+| O(n²) nested loops | O(n) two pointers | Two Pointers |
+| O(n²) nested loops | O(n) hashmap | Hashing |
+| O(n³) brute palindrome | O(n²) expand around center | String Expand |
+| O(n²) LIS DP | O(n log n) patience sort | Binary Search |
+| O(n²) build tree .index() | O(n) hashmap lookup | Hashmap |
+| O(2^n) recursive | O(n) or O(n²) DP | Dynamic Programming |
 | O(n) scan per query | O(n) prefix sum | Prefix Sum |
 | O(n*k) subarray | O(n) | Sliding Window |
-| O(n^2) re-sort | O(n log n) heap | Heap / Priority Queue |
+| O(n² log n) re-sort | O(n log n) heap | Heap / Priority Queue |
 | O(n) per find/union | O(alpha n) approx O(1) | Union-Find |
 
 ## DS to Pattern Mapping (Interview Quick Ref)
@@ -341,27 +377,27 @@ Every topic has: Dry Run tables + Optimal Code + Time/Space Complexity Analysis.
 ```
 Mastering-Dsa-Python/
 ├── 1-Big O Notation/
-├── 2-Array/                    16 Qs
+├── 2-Array/                    15 Qs
 ├── 3-List/                     10 Qs
-├── 4-Dict/                     15 Qs
-├── 5-tuple/
-├── 6-String/                    5 Qs
-├── 7-Math/
-├── 8-Recursion/                 5 Qs
-├── 9-LinkedList/               10 Qs
-├── 10-Stack/                    9 Qs
-├── 11-Queue/                    6 Qs
-├── 12-Hash/                    15 Qs
-├── 13-searching/                3 Qs
-├── 14-sorting/
+├── 4-Dict/                     10 Qs
+├── 5-tuple/                     5 Qs
+├── 6-String/                    8 Qs
+├── 7-Math/                     10 Qs
+├── 8-Recursion/                 8 Qs
+├── 9-LinkedList/                9 Qs
+├── 10-Stack/                    7 Qs
+├── 11-Queue/                    5 Qs
+├── 12-Hash/                    10 Qs
+├── 13-searching/                7 Qs
+├── 14-sorting/                  8 Qs
 ├── 15-SlidingWindow/           10 Qs
-├── 16-TwoPointers/              8 Qs  NEW
-├── 17-Trees/                   12 Qs  NEW
-├── 18-Heaps/                    8 Qs  NEW
-├── 19-Graphs/                  10 Qs  NEW
-├── 20-DynamicProgramming/      12 Qs  NEW
-├── 21-Backtracking/             8 Qs  NEW
-├── 22-Greedy/                   8 Qs  NEW
+├── 16-TwoPointers/              8 Qs
+├── 17-Trees/                   12 Qs
+├── 18-Heaps/                    8 Qs
+├── 19-Graphs/                  10 Qs
+├── 20-DynamicProgramming/      12 Qs
+├── 21-Backtracking/             8 Qs
+├── 22-Greedy/                   8 Qs
 ├── Dsa Q.docx
 └── Python Dsa Pattern & Template Handbook.docx
 ```
